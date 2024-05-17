@@ -70,21 +70,21 @@ namespace Customer.Controllers
         [HttpPost("insert")]
         public IActionResult Insert(CustomerInfo customerInfo)
         {
-            var existingCustomer = customerInfos.Find(c => c.Id == customerInfo.Id);
-            var existingCustomerPas = customerInfos.Find(c => c.Password == customerInfo.Password);
+            var existingCustomerID = customerInfos.Find(c => c.Id == customerInfo.Id);
+            var existingCustomerPassword = customerInfos.Find(c => c.Password == customerInfo.Password);
             var existingCustomerUser = customerInfos.Find(c => c.Username == customerInfo.Username);
 
-            if (existingCustomer != null)
+            if (existingCustomerID != null)
             {
                 return Conflict("ID already exists.");
             }
 
-            if (existingCustomerPas != null)
+            if (existingCustomerPassword != null)
             {
                 return Conflict("Password already exists.");
             }
 
-            if (existingCustomerPas != null)
+            if (existingCustomerUser != null)
             {
                 return Conflict("Username already exists.");
             }
