@@ -361,31 +361,6 @@ btn {
 	font-size: 14px;
 	font-weight: 300;
 	color: #8da2b5;
-	letter-spacing: .1em;
-}
-
-.pricing-box span {
-	font-weight: 500;
-	color: #ffcc00;
-}
-
-.pricing-box small {
-	color: #8da2b5;
-	letter-spacing: .2em;
-}
-
-.pricing-box i {
-	font-size: 20px;
-	color: #0033cc;
-	margin-right: 10px;
-}
-
-.pricing-box .demo {
-	color: #0033cc!important;
-}
-
-
-
 /* ==============================================
    8. Call to Action
 ===============================================*/
@@ -398,13 +373,13 @@ btn {
 }
 
 #call-to-action h2 {
-	color: #ffffff;
+	color: #0033cc;
 }
 
 #call-to-action p {
 	font-size: 20px;
 	font-weight: 300;
-	color: #ffffff;
+	color: #0033cc;
 	opacity: .8;
 	margin-bottom: 40px;
 }
@@ -414,8 +389,8 @@ btn {
 }
 
 #call-to-action .btn-regular {
-	background-color: #ffffff!important;
-	color: #0095f7!important;
+	background-color: #ffcc00!important;
+	color: #0033cc!important;
 	padding: 15px 45px;
 }
 
@@ -461,7 +436,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #0095f7;
+	color: #ffcc00;
 	text-decoration: none;
 }
 
@@ -472,7 +447,7 @@ footer i {
 }
 
 footer i:hover {
-	color: #0095f7;
+	color: #ffcc00;
 }
 
 footer small {
@@ -481,58 +456,34 @@ footer small {
 }
 
 .external-links {
-	color: #0095f7;
+	color: #ffcc00;
+}
+	letter-spacing: .1em;
 }
 
-/* ==============================================
-   9. Media Queries
-===============================================*/
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-	h2 {
-		font-size: 34px!important;
-		margin-bottom: 20px;
-		line-height: 1.6;
-	}
-	.title-block h2, p {
-		text-align: left;
-		padding: 0px 20px;
-	}
-
-	#call-to-action h2, p {
-		text-align: left!important;
-		padding: 0 20px;
-	}
-
-	#call-to-action {
-		background-image: none;
-		background-color: #0095f7;
-	}
-
-	footer {
-		padding: 60px 25px;
-	}
-	footer h5 {
-		font-size: 18px;
-		margin-top: 30px;
-	}
-	footer li {
-		font-size: 16px;
-		margin-bottom: 15px;
-	}
-	footer p {
-		font-size: 16px;
-	}
-	footer i {
-		font-size: 30px;
-		margin-right: 20px;
-	}
-	footer small {
-		float: left;
-		margin-top: 20px;
-	}
+.pricing-box span {
+	font-weight: 500;
+	color: #ffcc00;
 }
+
+.pricing-box small {
+	color: #8da2b5;
+	letter-spacing: .2em;
+}
+
+.pricing-box i {
+	font-size: 20px;
+	color: #0033cc;
+	margin-right: 10px;
+}
+
+.pricing-box .demo {
+	color: #0033cc!important;
+}
+
+
+
+
 
 @media (max-width: 768px) { 
 	#hero h1 {
