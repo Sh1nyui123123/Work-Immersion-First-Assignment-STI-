@@ -9,16 +9,19 @@ body {
 h2 {
 	font-size: 44px;
 	font-weight: 700;
+	color: #0033cc;
 }
 
 h3 {
 	font-size: 24px;
 	font-weight: 500;
 	margin-bottom: 25px;
+	color: #0033cc;
 }
 
 h5 {
 	font-size: 16px;
+	color: #0033cc;
 }
 
 p {
@@ -35,6 +38,7 @@ ul {
 
 b {
 	font-weight: 700;
+	color: #ffcc00;
 }
 
 section {
@@ -59,14 +63,15 @@ section {
 .divider {
 	padding: 2rem 0 0;
     margin: 2rem 0 0;
-    border-top: 1px solid #3c3f45;
+    border-top: 1px solid #0033cc;
 }
 
 .divider-light {
 	padding: 2rem 0 0;
     margin: 2rem 0 0;
-	border-top: 1px solid #edf1f2
+	border-top: 1px solid #ffcc00;
 }
+
 
 /* ==============================================
    2. Navbar 
