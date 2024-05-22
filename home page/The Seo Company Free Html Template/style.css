@@ -79,7 +79,7 @@ section {
 
 .custom-navbar {
 	background-color: #ffffff!important;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .09);
 	height: 70px;
 	max-height: 70px;
 }
@@ -95,7 +95,7 @@ section {
 }
 
 .navbar-toggler-icon {
-	color: #ffffff;
+	color: #0033cc;
 }
 
 .navbar-collapse {
@@ -107,15 +107,17 @@ section {
 	font-weight: 400;
 	letter-spacing: .05em;
 	margin-top: 5px;
+	color: #0033cc;
 }
 
 .navbar a {
-	color: #53627C !important;
+	color: #0033cc !important;
 }
 
 .nav-right {
 	float: right;
 }
+
 
 /* ==============================================
    3. Buttons
