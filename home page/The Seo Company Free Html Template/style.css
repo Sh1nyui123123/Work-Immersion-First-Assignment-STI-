@@ -122,12 +122,11 @@ section {
 /* ==============================================
    3. Buttons
 ===============================================*/
-
-.btn {
+btn {
 	font-size: 14px;
 	font-weight: 400;
 	border-radius: 3px!important;
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.08);
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .05), 0 1px 2px 0 rgba(0, 0, 0, .08);
 }
 
 .btn:hover {
@@ -135,7 +134,7 @@ section {
 }
 
 .btn-regular {
-	background-color: #0095f7;
+	background-color: #0033cc;
 	color: #ffffff;
 	padding: 10px 25px;
 	letter-spacing: .1em;
@@ -144,13 +143,13 @@ section {
 }
 
 .btn-regular:hover {
-	background-color: #0191f0;
+	background-color: #0026a1;
 	color: #ffffff;
 }
 
 .btn-demo {
 	color: #ffffff;
-	background-color: #6772e5;
+	background-color: #ffcc00;
 	letter-spacing: .1em;
 	padding: 15px 48px;
 	display: inline-block;
@@ -160,17 +159,17 @@ section {
 
 .btn-demo:hover {
 	color: #ffffff;
-	background-color: #636ee1;
+	background-color: #e6b800;
 }
 
 .btn-demo-small {
 	font-size: 12px;
-	background-color: #6772e5;
+	background-color: #ffcc00;
 	padding: 1px 4px;
 }
 
 .btn-demo-small:hover {
-	background-color: #636ee1;
+	background-color: #e6b800;
 }
 
 .btn-demo-small a {
@@ -179,7 +178,7 @@ section {
 
 .btn-buy {
 	color: #ffffff;
-	background-color: #0095f7;
+	background-color: #0033cc;
 	letter-spacing: .1em;
 	padding: 15px 48px;
 	display: inline-block;
@@ -188,7 +187,7 @@ section {
 }
 
 .btn-buy:hover {
-	background-color: #0191f0;
+	background-color: #0026a1;
 	color: #ffffff;
 }
 
@@ -203,22 +202,24 @@ section {
 #hero h1 {
 	font-size: 50px;
 	font-weight: 300;
+	color: #0033cc;
 }
 
 #hero p {
 	font-size: 24px;
     font-weight: 300;
-    color: #8da2b5;
+    color: #53627C;
     margin-bottom: 0px;
     padding: 0px;
 }
 
 #hero span {
 	font-weight: 400;
-    color: #0095f7;
+    color: #ffcc00;
     text-transform: uppercase;
     letter-spacing: .05em;
 }
+
 
 /* ==============================================
    5. Marketing
