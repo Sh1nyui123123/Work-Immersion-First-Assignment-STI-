@@ -228,14 +228,14 @@ btn {
 #marketing p {
 	font-size: 20px;
     font-weight: 300;
-    color: #8da2b5;
+    color: #53627C;
     margin-bottom: 0px;
     padding: 0px;
 }
 
 #marketing span {
 	font-weight: 400;
-	color: #0095f7;
+	color: #ffcc00;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 }
@@ -250,13 +250,13 @@ btn {
 
 #testimonials {
 	background-color: #f6f8f9;
-	border-top: 1px solid #F8F9FB;
-	border-bottom: 1px solid #F8F9FB;
+	border-top: 1px solid #f8f9fb;
+	border-bottom: 1px solid #f8f9fb;
 }
 
 .testimonial-box {
 	background-color: #ffffff;
-	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04), 0 10px 16px 0 rgba(10, 31, 68, 0.06);
 	border-radius: 20px;
 	padding: 20px 30px;
 	margin-top: 30px;
@@ -268,6 +268,7 @@ btn {
 	letter-spacing: .05em;
 	margin-top: 5px;
 	margin-bottom: 0px;
+	color: #0033cc;
 }
 
 .testimonial-box p {
@@ -276,6 +277,7 @@ btn {
 	margin-top: 25px;
 	line-height: 1.8;
 	padding: 0px;
+	color: #53627C;
 }
 
 .testimonial-box i {
@@ -293,23 +295,23 @@ btn {
 }
 
 .rating {
-	background-color: #0095f7;
+	background-color: #ffcc00;
 	padding: 2px 12px;
 	border-radius: 50px;
 }
 
 .profile-picture {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 .review-one {
-  background-image: url('images/profile-picture-one.jpg');
+	background-image: url('images/profile-picture-one.jpg');
 }
 
 .personal-info {
@@ -324,9 +326,9 @@ btn {
 .pricing-box {
 	background-color: #ffffff;
 	padding: 40px 20px;
-	border: 1px solid #F8F9FB;
+	border: 1px solid #f8f9fb;
 	border-radius: 6px;
-	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04), 0 10px 16px 0 rgba(10, 31, 68, 0.06);
 	margin-top: 30px;
 }
 
@@ -334,7 +336,7 @@ btn {
 	font-size: 22px;
 	font-weight: 300;
 	letter-spacing: .1em;
-	color: #0095f7;
+	color: #0033cc;
 }
 
 .pricing-box h6 {
@@ -348,6 +350,7 @@ btn {
 	font-size: 17px;
 	margin-top: 15px;
 	padding: 0px;
+	color: #53627C;
 }
 
 .pricing-box ul {
@@ -363,7 +366,7 @@ btn {
 
 .pricing-box span {
 	font-weight: 500;
-	color: #0095f7;
+	color: #ffcc00;
 }
 
 .pricing-box small {
@@ -373,13 +376,15 @@ btn {
 
 .pricing-box i {
 	font-size: 20px;
-	color: #0095f7;
+	color: #0033cc;
 	margin-right: 10px;
 }
 
 .pricing-box .demo {
-	color: #6772e5!important;
+	color: #0033cc!important;
 }
+
+
 
 /* ==============================================
    8. Call to Action
